@@ -1,0 +1,148 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* 
+COLOR PALETTE :
+    -Blue : #60A2F5
+    -LighBlue : #8AEDF6
+*/
+body{
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        font-size: 16px;
+}
+
+/* ------NavBar Style----- */
+#navContainer{
+    display: flex ;
+    flex-direction: row ;
+    padding-left: 42px;
+    padding-right: 42px;
+    justify-content: space-between;
+    align-items: center;
+
+    /* shadow */
+    box-shadow: 0px 6px 5px -1px rgba(96,162,245,0.44);
+    -webkit-box-shadow: 0px 6px 5px -1px rgba(96,162,245,0.44);
+    -moz-box-shadow: 0px 6px 5px -1px rgba(96,162,245,0.44);
+}
+
+#MainLogo{
+    width: 278px;
+    height: 41;
+}
+
+.menuLink{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+
+/* ------Hero Style----- */
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+h1{
+    font-size: 55px;
+}
+
+.left{
+    width: 625px;
+}
+#headerBtn{
+    margin-top: 41px;
+}
+
+#gradient1{
+    width: 740px;
+    height: 518px;
+    border-top-left-radius: 450px;
+    border-bottom-left-radius: 450px;
+
+    /* Gradient color */
+    background: rgb(138,237,246);
+    background: linear-gradient(90deg, rgba(138,237,246,0.4450867052023122) 0%, rgba(96,162,245,1) 100%);
+    
+    /* positionning */
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+#iphonePic{
+    width: 280px;
+}
+
+.Btn{
+    background-color: #60A2F5;
+    border-style: none;
+    padding: 7px 15PX 7PX 15PX;
+    border-radius: 5px ;
+
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+.Btn:hover{
+    color: black;
+    cursor: pointer;
+    background: rgb(138,237,246);
+background: linear-gradient(48deg, rgba(138,237,246,0.8746849081429446) 0%, rgba(96,162,245,1) 100%);
+}
+
+.SecBtn{
+    background-color: transparent;
+    border-style: none;
+    padding: 7px 15PX 7PX 15PX;
+    border-radius: 5px ;
+    margin-left: 20px;
+
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.SecBtn:hover{
+    font-weight: 600;
+}
+
+/* ----Feature 1 Style---- */
+.featureContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+#device{
+    width: 600px;
+    margin: 75px 75px;
+}
+.contentContainer{
+    margin: 75px 75px;
+    width: 50%;
+}
+p{
+    margin-bottom: 50px;
+}
+.overline{
+    margin-bottom: 0;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 65%;
+}
+
+/* ----Feature 1 Style---- */
+#dashboard{
+    width: 750px;
+}
+#feature2{
+    padding: 75px 50px 75px 50px;
+    background: rgb(138,237,246);
+background: linear-gradient(3deg, rgba(138,237,246,0.8746849081429446) 0%, rgba(255,255,255,1) 100%);
+}
